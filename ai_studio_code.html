@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Protocolo 31 Dias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" href="https://picsum.photos/id/192/192/192">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon">31</div>
+            <div>
+                <h1>Protocolo 31</h1>
+                <p>BIOHACKING PESSOAL</p>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-content">
+        <!-- O conteúdo será injetado pelo app.js -->
+    </main>
+
+    <nav class="bottom-nav">
+        <button onclick="showTab('dashboard')" id="nav-dashboard" class="active">
+            <span class="icon">📊</span>
+            <span>Início</span>
+        </button>
+        <button onclick="showTab('initial')" id="nav-initial">
+            <span class="icon">📝</span>
+            <span>Dados</span>
+        </button>
+        <button onclick="showTab('daily')" id="nav-daily">
+            <span class="icon">📅</span>
+            <span>Diário</span>
+        </button>
+        <button onclick="showTab('walks')" id="nav-walks">
+            <span class="icon">👣</span>
+            <span>Walk</span>
+        </button>
+        <button onclick="showTab('final')" id="nav-final">
+            <span class="icon">🏆</span>
+            <span>Fim</span>
+        </button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
